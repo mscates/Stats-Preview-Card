@@ -1,0 +1,42 @@
+{
+  "devDependencies": {
+    "sass": "^1.45.0"
+  },
+  "name": "stats-preview-card",
+  "description": "![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "anymatch": "^3.1.2",
+    "binary-extensions": "^2.2.0",
+    "braces": "^3.0.2",
+    "chokidar": "^3.5.2",
+    "fill-range": "^7.0.1",
+    "fsevents": "^2.3.2",
+    "immutable": "^4.0.0",
+    "glob-parent": "^5.1.2",
+    "is-binary-path": "^2.1.0",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "normalize-path": "^3.0.0",
+    "readdirp": "^3.6.0",
+    "picomatch": "^2.3.0",
+    "source-map-js": "^1.0.1",
+    "to-regex-range": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mscates/Stats-Preview-Card.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mscates/Stats-Preview-Card/issues"
+  },
+  "homepage": "https://github.com/mscates/Stats-Preview-Card#readme"
+}

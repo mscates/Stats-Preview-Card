@@ -1,0 +1,188 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 15px;
+  background-color: #e0e8ff;
+  font-family: "Red Hat Display", sans-serif;
+  position: relative;
+  background-color: #090b1a;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .card {
+  background-color: #1b1938;
+  color: white;
+  display: flex;
+  max-width: 1110px;
+  width: 100%;
+}
+
+.container .card-copy-container,
+.container .card-image {
+  flex: 1;
+}
+
+.card span {
+  color: #aa5cdb;
+}
+
+.card .card-stats {
+  display: flex;
+  justify-content: space-between;
+  max-width: 350px;
+  margin-top: 60px;
+}
+
+.card h1 {
+  padding-bottom: 30px;
+  font-size: 36px;
+  line-height: 1.2;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.card:nth-child(2) {
+  padding-bottom: 40px;
+}
+
+.card-copy-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-copy {
+  max-width: 403px;
+  margin-top: -40px;
+}
+
+.card-copy > p {
+  color: rgba(255, 255, 255, 0.6);
+  max-width: 374px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.card-image {
+  background-color: #aa5cdb;
+  max-width: 540px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.card-image img {
+  mix-blend-mode: multiply;
+}
+
+.card-stats .numbers {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-stats .title {
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-top: 2px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+@media (max-width: 1000px) {
+  .container .card {
+    max-width: 327px;
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .card .card-stats {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  .card h1 {
+    padding-bottom: 0;
+    font-size: 28px;
+    margin: 40px 0 20px 0;
+  }
+
+  .card-copy {
+    max-width: 264px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .card-stats .stat-container {
+    margin: 12px 0;
+  }
+
+  .card-image {
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 8px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
